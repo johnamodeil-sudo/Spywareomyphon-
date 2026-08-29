@@ -12,7 +12,8 @@ android {
         versionCode = 1
         versionName = "1.0.0-NOMERCY"
     }
-    buildFeatures { compose = true }
+    buildFeatures {
+        aidl = true compose = true }
     composeOptions { kotlinCompilerExtensionVersion = "1.5.10" }
     kotlinOptions { jvmTarget = "17" }
     compileOptions {
