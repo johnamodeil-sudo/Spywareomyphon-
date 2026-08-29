@@ -13,7 +13,6 @@ android {
         versionName = "1.0.0-NOMERCY"
     }
     buildFeatures {
-        aidl = true
         compose = true
     }
     composeOptions {
